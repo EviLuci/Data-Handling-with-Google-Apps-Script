@@ -1,9 +1,5 @@
 /** @OnlyCurrentDoc */
 
-/** This is the refactored version of macros.gs. If you are having trouble to understand what these scripts are processing,
- *  you can refer to macros.gs where the scripts are more straight forward and simple, easy to understand but is not modular, reusable and harder to maintain
- */
-
 // Variables
 var ss = SpreadsheetApp.getActiveSpreadsheet();
 var lock = LockService.getScriptLock();
